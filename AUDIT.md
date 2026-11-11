@@ -68,3 +68,37 @@ Banner comprobado en TV, ordenador y móvil (`branding/export/banner-device-prev
 | 10 | Programar directo "GTA 6 LAUNCH NIGHT LIVE" para el 19 | Crear › Emitir en directo | 2 min |
 
 Cuando hayas hecho 1–8, pide a Claude que vuelva a auditar: el nombre, la descripción y las palabras clave se comprueban en vivo con vidIQ.
+
+---
+
+# Re-auditoría — 11 nov 2026 (después de los cambios en Studio)
+
+Datos en vivo (vidIQ + búsqueda de YouTube):
+
+| Elemento | Resultado |
+|---|---|
+| Nombre | ⚠️ La búsqueda de YouTube ya muestra **"Six Star Heat"**; la ficha del canal todavía dice "@Giovani_cao" (YouTube tarda hasta 24–48 h en propagar) |
+| Handle | ❌ sigue siendo `@giovanni_cao23` |
+| Descripción | ❌ sigue siendo "Okee👍🏼" |
+| Foto de perfil | ❌ la misma imagen antigua (misma URL) |
+| País / palabras clave | ❌ vacíos |
+| Vídeos antiguos | ✅ 12/12 privados |
+
+## ❗ Problema grave: el nombre "Six Star Heat" ya existe
+La primera comprobación (índice de vidIQ) no los encontró, pero la búsqueda en vivo sí:
+
+| Canal | Handle / ID | Datos |
+|---|---|---|
+| Six Star Heat | `@SixStarHeat` (UC96cxdjq1kNStRMA4KZTooQ) | creado ago 2026, 0 vídeos — **ocupa el handle** |
+| Six Star Heat | `@SixStarHeatTV` (UC57gtcpxS6rvFdgFCIREAzw) | creado oct 2026, GTA 6 |
+| Six Star Heat | UCxzKmqrVV6rtKonQS_L6WzQ | **canal activo de GTA 6**: 115 vídeos, 176 K vistas, TikTok `@sixstarheathq` |
+
+También ocupados: "Heat Level Six" (`@HeatLevelSix`), "Heat Level 6" (×2), "HeatLevelSix Gta", "Heat Level",
+"Six Star Wanted", "Sundown Six" (`@SundownSix`).
+
+**Conclusión:** con 3 canales de GTA 6 llamados igual, nuestros vídeos competirían por el mismo nombre y
+la gente se confundiría. **Hay que elegir otro nombre** antes de publicar el primer vídeo.
+Ojo: YouTube solo permite 2 cambios de nombre cada 14 días; ya se usó 1.
+
+Pendiente (sin créditos de vidIQ para seguir comprobando): verificar el nombre nuevo en
+Studio › Personalización › Perfil › Handle (Studio dice al instante si está libre).

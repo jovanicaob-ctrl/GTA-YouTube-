@@ -11,7 +11,7 @@ biggest GTA 6 search markets according to vidIQ data).
 | Field | Value |
 |---|---|
 | **Name** | `Six Star Heat` |
-| **Handle** | `@SixStarHeat` (free as of 2026-11-11; fallbacks: `@SixStarHeatTV`, `@SixStarHeatLive`) |
+| **Handle** | ⚠️ `@SixStarHeat` and `@SixStarHeatTV` are TAKEN (re-audit 2026-11-11) — name under review, see `AUDIT.md` §Re-audit |
 | **Profile picture** | `branding/export/logo-800x800.png` |
 | **Banner** | `branding/export/banner-2560x1440.png` |
 | **Video watermark** | `branding/export/watermark-300x300.png` · display: *Entire video* |
