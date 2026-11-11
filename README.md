@@ -7,7 +7,9 @@ a **Six Star Heat**: canal en inglés de gameplay, directos y guías de GTA 6 (l
 branding/
   src/        logo.svg · banner.svg · watermark.svg · thumbnail-template.svg   (fuentes editables)
   export/     PNG listos para subir a YouTube + vista previa del banner por dispositivo
-channel/      channel-setup.md  → nombre, handle, descripción, enlaces, palabras clave, ajustes
+channel/      channel-setup.md  → nombre, handle, descripción, enlaces, ajustes
+              keywords.md       → palabras clave del canal, tags por tipo de vídeo, palabras bloqueadas
+AUDIT.md      → auditoría completa del canal y plan de acción por prioridad
 content/      content-plan.md   → investigación, calendario, ideas de vídeos, miniaturas, tráiler
               video-description-template.md → plantilla de descripción, tags y reglas de títulos
 streaming/    live-setup.md     → cómo configurar y hacer los directos

@@ -81,8 +81,9 @@ trademarks of Take-Two Interactive.
 - Country of residence: your country (needed for monetization).
 - Keywords:
   ```
-  GTA 6, GTA VI, GTA 6 gameplay, GTA 6 live, GTA 6 walkthrough, GTA 6 guide, GTA 6 tips, GTA 6 secrets, GTA 6 easter eggs, Grand Theft Auto 6, Leonida, Vice City, Lucia, Jason, GTA 6 PS5, GTA 6 Xbox, Six Star Heat
+  GTA 6, GTA VI, GTA 6 gameplay, Grand Theft Auto 6, GTA 6 live, GTA 6 walkthrough, GTA 6 guide, GTA 6 tips, GTA 6 secrets, GTA 6 easter eggs, GTA 6 map, GTA 6 cars, GTA 6 story, GTA 6 explained, GTA 6 Vice City, GTA 6 PS5, GTA 6 Xbox Series X, GTA 6 Jason and Lucia, Leonida, Six Star Heat
   ```
+  (search data and per-video tag sets: `channel/keywords.md`)
 
 **Channel › Advanced settings**
 - Audience: **No, set this channel as not made for kids** (GTA is rated M/18+).
