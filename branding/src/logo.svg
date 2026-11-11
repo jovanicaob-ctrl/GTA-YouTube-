@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <!-- Six Star Heat — channel avatar. YouTube crops to a circle: keep everything inside r=400. -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#2a0f4a"/>
+      <stop offset="0.6" stop-color="#140726"/>
+      <stop offset="1" stop-color="#07030f"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd23f"/>
+      <stop offset="0.5" stop-color="#ff7a2f"/>
+      <stop offset="1" stop-color="#ff2e88"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="0.35" stop-color="#ffb627"/>
+      <stop offset="0.75" stop-color="#ff5a36"/>
+      <stop offset="1" stop-color="#ff1f7a"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="circle"><circle cx="400" cy="400" r="400"/></clipPath>
+    <mask id="sunStripes">
+      <rect width="800" height="800" fill="#fff"/>
+      <rect x="0" y="470" width="800" height="14" fill="#000"/>
+      <rect x="0" y="510" width="800" height="18" fill="#000"/>
+      <rect x="0" y="556" width="800" height="22" fill="#000"/>
+      <rect x="0" y="606" width="800" height="26" fill="#000"/>
+    </mask>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="800" height="800" fill="url(#bg)"/>
+    <!-- retro sunset disc -->
+    <circle cx="400" cy="470" r="250" fill="url(#sun)" opacity="0.85" mask="url(#sunStripes)"/>
+    <!-- horizon -->
+    <rect x="0" y="640" width="800" height="160" fill="#07030f"/>
+    <g stroke="#ff2e88" stroke-opacity="0.55" stroke-width="3">
+      <line x1="0" y1="642" x2="800" y2="642"/>
+      <line x1="400" y1="642" x2="40" y2="800"/>
+      <line x1="400" y1="642" x2="220" y2="800"/>
+      <line x1="400" y1="642" x2="400" y2="800"/>
+      <line x1="400" y1="642" x2="580" y2="800"/>
+      <line x1="400" y1="642" x2="760" y2="800"/>
+      <line x1="0" y1="690" x2="800" y2="690"/>
+      <line x1="0" y1="752" x2="800" y2="752"/>
+    </g>
+    <!-- main star -->
+    <g filter="url(#glow)">
+      <polygon points="400,110 469,290 660,296 509,414 563,598 400,490 237,598 291,414 140,296 331,290"
+               fill="url(#star)" stroke="#fff6d6" stroke-width="10" stroke-linejoin="round"/>
+    </g>
+    <!-- the "6" -->
+    <text x="400" y="468" text-anchor="middle" font-family="Inter Display, Inter, Arial Black, sans-serif"
+          font-weight="900" font-size="230" fill="#140726">6</text>
+    <!-- inner ring -->
+    <circle cx="400" cy="400" r="380" fill="none" stroke="#ff2e88" stroke-width="12" opacity="0.9"/>
+  </g>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440">
+  <!--
+    Six Star Heat — channel banner (2560x1440).
+    Safe area visible on EVERY device (mobile/desktop/TV): x 507–2053, y 508–932 (1546x423).
+    All text and the key mark live inside it; the rest is scenery that TV shows in full.
+  -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07030f"/>
+      <stop offset="0.35" stop-color="#1d0a38"/>
+      <stop offset="0.62" stop-color="#4a1260"/>
+      <stop offset="0.8" stop-color="#a3215f"/>
+      <stop offset="1" stop-color="#ff6a3d"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd23f"/>
+      <stop offset="0.55" stop-color="#ff7a2f"/>
+      <stop offset="1" stop-color="#ff2e88"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d9"/>
+      <stop offset="0.45" stop-color="#ffc23a"/>
+      <stop offset="1" stop-color="#ff4f6d"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="0.4" stop-color="#ffb627"/>
+      <stop offset="1" stop-color="#ff1f7a"/>
+    </linearGradient>
+    <mask id="sunStripes">
+      <rect width="2560" height="1440" fill="#fff"/>
+      <rect x="0" y="900" width="2560" height="16" fill="#000"/>
+      <rect x="0" y="950" width="2560" height="22" fill="#000"/>
+      <rect x="0" y="1006" width="2560" height="28" fill="#000"/>
+      <rect x="0" y="1068" width="2560" height="34" fill="#000"/>
+    </mask>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <g id="palm">
+      <path d="M0,0 C 18,-120 10,-260 40,-420" stroke="#07030f" stroke-width="26" fill="none" stroke-linecap="round"/>
+      <g transform="translate(40,-420)" fill="#07030f">
+        <path d="M0,0 C -80,-40 -170,-20 -230,50 C -150,0 -80,0 0,10 Z"/>
+        <path d="M0,0 C -60,-90 -150,-120 -220,-90 C -140,-80 -70,-50 0,8 Z"/>
+        <path d="M0,0 C 20,-100 0,-170 -40,-210 C -10,-140 -10,-80 0,6 Z"/>
+        <path d="M0,0 C 80,-80 170,-90 230,-50 C 150,-50 80,-30 0,8 Z"/>
+        <path d="M0,0 C 90,-20 180,20 230,90 C 150,40 80,20 0,10 Z"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="2560" height="1440" fill="url(#sky)"/>
+
+  <!-- stars in the sky -->
+  <g fill="#fff" opacity="0.7">
+    <circle cx="180" cy="140" r="3"/><circle cx="420" cy="260" r="2"/><circle cx="760" cy="120" r="3"/>
+    <circle cx="1040" cy="210" r="2"/><circle cx="1500" cy="110" r="3"/><circle cx="1830" cy="240" r="2"/>
+    <circle cx="2120" cy="150" r="3"/><circle cx="2380" cy="280" r="2"/><circle cx="300" cy="420" r="2"/>
+    <circle cx="2260" cy="430" r="2"/><circle cx="640" cy="380" r="2"/><circle cx="1960" cy="360" r="2"/>
+  </g>
+
+  <!-- retro sun behind the title -->
+  <circle cx="1280" cy="980" r="420" fill="#ff2e88" opacity="0.35" filter="url(#softglow)"/>
+  <circle cx="1280" cy="980" r="360" fill="url(#sun)" mask="url(#sunStripes)"/>
+
+  <!-- skyline -->
+  <g fill="#0b0518">
+    <rect x="0" y="1080" width="2560" height="360"/>
+    <rect x="560" y="1010" width="70" height="80"/><rect x="640" y="960" width="50" height="130"/>
+    <rect x="700" y="1030" width="90" height="60"/><rect x="800" y="930" width="60" height="160"/>
+    <rect x="870" y="990" width="80" height="100"/><rect x="1610" y="980" width="70" height="110"/>
+    <rect x="1690" y="920" width="56" height="170"/><rect x="1756" y="1010" width="90" height="80"/>
+    <rect x="1856" y="950" width="64" height="140"/><rect x="1930" y="1020" width="80" height="70"/>
+  </g>
+  <!-- neon grid floor -->
+  <g stroke="#ff2e88" stroke-opacity="0.5" stroke-width="3">
+    <line x1="0" y1="1082" x2="2560" y2="1082"/>
+    <line x1="0" y1="1140" x2="2560" y2="1140"/>
+    <line x1="0" y1="1220" x2="2560" y2="1220"/>
+    <line x1="0" y1="1330" x2="2560" y2="1330"/>
+    <line x1="1280" y1="1082" x2="1280" y2="1440"/>
+    <line x1="1280" y1="1082" x2="900" y2="1440"/><line x1="1280" y1="1082" x2="1660" y2="1440"/>
+    <line x1="1280" y1="1082" x2="480" y2="1440"/><line x1="1280" y1="1082" x2="2080" y2="1440"/>
+    <line x1="1280" y1="1082" x2="0" y2="1400"/><line x1="1280" y1="1082" x2="2560" y2="1400"/>
+  </g>
+
+  <!-- palms (outside the safe area — seen on TV/desktop) -->
+  <use href="#palm" transform="translate(150,1110) scale(1.5)"/>
+  <use href="#palm" transform="translate(380,1100) scale(1.05) rotate(-6)"/>
+  <use href="#palm" transform="translate(2410,1110) scale(-1.5,1.5)"/>
+  <use href="#palm" transform="translate(2180,1100) scale(-1.05,1.05) rotate(-6)"/>
+
+  <!-- dark band behind text for contrast -->
+  <ellipse cx="1280" cy="720" rx="900" ry="250" fill="#07030f" opacity="0.6" filter="url(#softglow)"/>
+
+  <!-- ===== SAFE AREA CONTENT ===== -->
+  <!-- star mark -->
+  <g transform="translate(660,712) scale(0.92)" filter="url(#glow)">
+    <polygon points="0,-150 40,-46 150,-46 62,20 94,126 0,62 -94,126 -62,20 -150,-46 -40,-46"
+             fill="url(#star)" stroke="#fff6d6" stroke-width="6" stroke-linejoin="round"/>
+    <text x="0" y="44" text-anchor="middle" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="124" fill="#140726">6</text>
+  </g>
+
+  <g font-family="Inter Display, Inter, sans-serif" font-weight="900">
+    <text x="820" y="712" font-size="128" fill="url(#title)" letter-spacing="4" filter="url(#glow)">SIX STAR HEAT</text>
+  </g>
+  <g font-family="Inter, sans-serif" font-weight="700" fill="#ffffff">
+    <text x="826" y="784" font-size="38" letter-spacing="5">GTA 6 GAMEPLAY · LIVE STREAMS · GUIDES</text>
+  </g>
+  <!-- schedule pill -->
+  <g font-family="Inter, sans-serif" font-weight="800">
+    <rect x="826" y="816" width="640" height="58" rx="29" fill="#ff2e88"/>
+    <text x="1146" y="856" text-anchor="middle" font-size="29" fill="#fff" letter-spacing="3">NEW VIDEOS DAILY · LIVE FRI–SUN</text>
+  </g>
+</svg>

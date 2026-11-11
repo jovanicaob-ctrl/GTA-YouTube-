@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!--
+    Thumbnail template. Replace the screenshot layer with a real gameplay frame
+    (keep the face/car/action on the LEFT 60%), edit the 2–4 word hook, keep the badge.
+    Avoid the bottom-right 200x90 corner: YouTube draws the video length there.
+  -->
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.45" stop-color="#07030f" stop-opacity="0"/><stop offset="1" stop-color="#07030f" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="hook" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d9"/><stop offset="0.5" stop-color="#ffc23a"/><stop offset="1" stop-color="#ff4f6d"/>
+    </linearGradient>
+    <linearGradient id="ph" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a0f4a"/><stop offset="1" stop-color="#ff6a3d"/>
+    </linearGradient>
+  </defs>
+  <!-- SCREENSHOT LAYER: replace this rect with <image href="frame.jpg" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/> -->
+  <rect width="1280" height="720" fill="url(#ph)"/>
+  <text x="380" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#fff" opacity="0.5">GAMEPLAY FRAME HERE</text>
+  <rect width="1280" height="720" fill="url(#shade)"/>
+  <g font-family="Inter Display, Inter, sans-serif" font-weight="900" text-anchor="end">
+    <text x="1230" y="300" font-size="132" fill="url(#hook)" stroke="#07030f" stroke-width="10" paint-order="stroke">FIRST</text>
+    <text x="1230" y="430" font-size="132" fill="url(#hook)" stroke="#07030f" stroke-width="10" paint-order="stroke">HOUR</text>
+  </g>
+  <!-- channel badge -->
+  <g transform="translate(70,70)">
+    <polygon points="0,-46 12,-14 46,-14 19,6 29,39 0,19 -29,39 -19,6 -46,-14 -12,-14" fill="#ffb627" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+    <text x="0" y="16" text-anchor="middle" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="38" fill="#140726">6</text>
+  </g>
+</svg>
